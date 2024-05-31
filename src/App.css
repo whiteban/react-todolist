@@ -1,0 +1,75 @@
+.app-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.form-wrapper {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: calc(100% - 180px);
+    padding: 16px;
+    font-size: 50px;
+    border: 1px solid #0b0b0b;
+    border-radius: 40px;
+}
+
+button {
+    padding: 8px 80px;
+    font-size: 24px;
+    background-color: #0014f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0014f2;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Todo-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px; /* Augmenter l'espace entre chaque élément */
+}
+
+.todo-text {
+    margin-left: 20px; 
+}
+
+.todo-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px; 
+}
+
+.checkbox {
+    margin-right: 20px; /* Augmenter l'espace entre la case à cocher et le texte */
+}
+
+.checkbox input {
+    margin-right: 40px; /* Augmenter l'espace entre la case à cocher et le texte */
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top:  0;
+    left: 0;
+}
+
+.logo .checkbox input {
+    transform: scale(2); 
+    margin-right: 20px; 
+}
