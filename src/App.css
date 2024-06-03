@@ -73,3 +73,9 @@ button:hover {
     transform: scale(2); 
     margin-right: 20px; 
 }
+
+.todo-list li.completed span {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
